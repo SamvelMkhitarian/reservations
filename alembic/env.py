@@ -6,7 +6,8 @@ from sqlalchemy import pool
 from alembic import context
 from sqlalchemy.dialects.postgresql import psycopg2
 
-from api.database import DB_URL, sync_engine, Base
+from api.database import DB_URL, sync_engine
+from api.models import Base
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
