@@ -136,7 +136,7 @@ class Amenity(Base):
 
 
 class PropertyAmenity(Base):
-    "Объект-Удобства."
+    """Объект-Удобства."""
     __tablename__ = 'property_amenities'
 
     id: Mapped[int] = mapped_column(Integer, primary_key=True)
@@ -183,7 +183,7 @@ class Payment(Base):
 
 
 class Cancellation(Base):
-    "Отмена."
+    """Отмена."""
     __tablename__ = 'cancellations'
 
     id: Mapped[int] = mapped_column(Integer, primary_key=True)
